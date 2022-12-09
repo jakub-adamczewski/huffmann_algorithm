@@ -24,8 +24,10 @@ def get_coding_efficiency(
             return H / L
 
 
-# Stopień kompresji jest na korzyść algorytmu Huffmanna, udowadnia, że zużywa on średnio mniej bitów na zakodowanie znaku pliku wejściowego.
-# Efektywność kodowania również jest na korzyść algorytmu Huffmanna, jest bliska maksymalnej możliwej efektywności.
+"""
+Stopień kompresji jest na korzyść algorytmu Huffmanna. Udowadnia, że zużywa on średnio mniej bitów na zakodowanie znaku pliku wejściowego.
+Efektywność kodowania również jest na korzyść algorytmu Huffmanna, jest bliska maksymalnej możliwej efektywności.
+"""
 if __name__ == '__main__':
     input_file = 'files/norm_wiki_sample.txt'
 
